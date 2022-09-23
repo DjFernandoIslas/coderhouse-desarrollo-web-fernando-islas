@@ -1,0 +1,505 @@
+/* Resets */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.fixed {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.html{
+  font-family: "Roboto Condensed";
+}
+
+
+
+a{
+  text-decoration: none;
+  color: black;
+}
+/* inicio estilos del header principal */
+
+.audio{
+  width: 100%;
+  background-color: rgba(7, 34, 58);
+  position: relative;
+  }
+
+  
+.page-header{
+  font-family: "Roboto Condensed";
+  background-color: rgb(0, 48, 95);
+  color: white;
+  font-size: large;
+
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.page_header_nav{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 15px 15px;
+  list-style: none;
+}
+
+.page_header_nav li{
+  padding-left: 15px;
+}
+
+.page_header_nav li ul{
+  list-style: none;
+}
+
+.header-logo{
+  height: 40px;
+}
+
+.page_header_nav a{
+  color: antiquewhite;
+}
+
+.page-header_nav a.active{
+  color: white;
+}
+
+.main_principal{
+  background-color: rgba(7, 34, 58, 0.879);
+  color: white;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+
+@media (min-width: 992px){
+
+
+.page-header{
+  font-family: "Roboto Condensed";
+  background-color: rgb(0, 48, 95);
+  color: white;
+  font-size: large;
+  list-style: none;
+  width: 100%;
+  height: 55px;
+  display: grid;
+  grid-template-columns: 200px auto; 
+  justify-content: space-around;
+  align-items: center;
+}
+
+.page_header_nav{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: end;
+  gap: 0 20px;
+  list-style: none;
+}
+
+.page-header ul ul{
+  display: none;
+  position: absolute;
+  background-color: rgb(0, 21, 92);
+  width: 60px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+
+.page-header ul ul li{
+  display: block;
+}
+
+.page-header ul li:hover ul{
+  display: block;
+}
+
+.page_header_nav-button{
+  border: 1px solid white;
+  border-radius: 40px;
+  padding: 10px 15px;
+  margin-left: 20px;
+}
+
+
+
+/* lista del header */
+
+.link {
+  text-decoration-color: white;
+}
+
+/* fin estilos del header */
+
+/* Inicio estilos Principal */
+
+
+.main_principal_container{
+display: grid;
+grid-template-columns: 1fr 2fr;
+  width: 100%;
+}
+
+.main_principal_wrapper{
+overflow: hidden;
+display: flex;
+flex-direction: column;
+width: 500px;
+justify-content: center;
+height: 100%;
+}
+
+.main_principal_wrapper_tittle{
+  font-family: "Roboto Condensed";
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+}
+
+.main_principal_wrapper_slogan{
+  font-family: "Roboto Condensed";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+}
+
+.main_principal_wrapper_paragraph{
+  font-family: "Roboto Condensed";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 200;
+  text-align: center;
+}
+
+.main_principal_wrapper_logo{
+  width: 550px;
+  border: 16rem;
+  transform: translate(-50px, -50px);
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 10s;
+  justify-self: end;
+}
+
+/* Fin estilos principal */
+
+/* inicio estilos features */
+
+.our_work{
+  background-color: rgba(14, 56, 93, 0.879);
+  color: white;
+display: grid;
+grid-template-areas:
+"tittle card01 card02 card05"
+"tittle card03 card04 card06";
+grid-template-rows: 1fr 1fr;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+padding: 40px;
+}
+
+.our_work_wrapper{
+  grid-area: tittle;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card01{
+  grid-area: card01;
+}
+.card02{
+  grid-area: card02;
+}
+.card03{
+  grid-area: card03;
+}
+.card04{
+  grid-area: card04;
+}
+.card05{
+  grid-area: card05;
+}
+.card06{
+  grid-area: card06;
+}
+
+.our_work_tittle{
+  font-family: "Roboto Condensed";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+}
+
+.our_work_subtitle{
+  font-family: "Roboto Condensed";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+}
+
+.our_work_cards-card{
+  background-color: rgb(182, 221, 255);
+  color: black;
+  font-family: "Roboto Condensed";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 20px;
+  width: 300px;
+  height: 300px;
+  padding: 8px;
+  transition: all 2s;
+}
+
+.our_work_cards-card:hover{
+transform: scale(1.3);
+background-color: white;
+border-radius: 10px;
+}
+
+.our_work_cards-card p{
+  font-size: 22px;
+}
+
+/* fin estilos features */
+
+/* Inicio estilos de MENU */
+
+.menu_tittle{
+  color: white;
+  font-family: "Roboto Condensed";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 200;
+  text-align: center;
+}
+
+.menu_table{
+  background-color: rgb(10, 120, 175);
+}
+
+.tabla_menu{
+  padding: 0 151px 0 350px;
+  text-align: center;
+}
+
+/* Fin estilos de MENU */
+
+/* Inicio estilos de recomendaciones de Menu */
+
+.recoms{
+  background-color: rgba(7, 34, 58);
+  font-family: "Roboto Condensed";
+}
+
+.recoms p{
+  font-size: 16px;
+}
+
+.recoms_tittle {
+  color: white;
+  font-family: "Roboto Condensed";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 200;
+  text-align: center;
+}
+
+.recoms_images {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+/* Fin estilo de recomendaciones de menu */
+
+/* Inicio estilos de promos */
+
+.promos {
+  background-color: rgb(10, 120, 175);
+}
+.promo_tittle {
+  color: white;
+  font-family: "Roboto Condensed";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 200;
+  text-align: center;
+}
+
+.promo_media {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+/* fin estilo de promos */
+
+/* inicio estilos nosotros */
+
+.nosotros {
+  background-color: rgb(10, 120, 175);
+}
+
+.nosotros_tittle {
+  color: white;
+  font-family: "Roboto Condensed";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 200;
+  text-align: center;
+}
+
+.nosotros_subtitle {
+  color: white;
+  font-family: "Roboto Condensed";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 200;
+  text-align: center;
+}
+
+.mapa{
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+/* fin estilos nosotros */
+
+/* inicio estilos contacto */
+
+.contact{
+  background-color: rgba(7, 34, 58);
+}
+
+.contact_tittle {
+  color: white;
+  font-family: "Roboto Condensed";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 200;
+  text-align: center;
+}
+
+.contact_subtitle {
+  color: white;
+  font-family: "Roboto Condensed";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 200;
+  text-align: center;
+}
+
+.form_contact{
+  display: block;
+  text-align: center;
+}
+
+.contact_imgs{
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+/* fin estilos contacto */
+
+/* inicio estilos submenu */
+
+.submenu {
+  background-color: rgba(7, 34, 58);
+}
+
+.submenu_tittle {
+  color: white;
+  font-family: "Roboto Condensed";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 200;
+  text-align: center;
+}
+
+.submenu_subtitle {
+  color: white;
+  font-family: "Roboto Condensed";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 200;
+  text-align: center;
+}
+
+.submenu_imgs {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+/* fin estilos submenu */
+
+/* inicio estilos legales */
+
+.legal_button{
+  font-family: "Roboto Condensed";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 200;
+  text-align: center;
+  background-color: rgb(4, 76, 201);
+  padding: 20px 0 20px 0;
+}
+
+.legales{
+  background-color: rgba(7, 34, 58);
+  display: block;
+  text-align: left;
+  color:white;
+}
+
+/* fin estilos legales */
+
+/* footer estilos */
+
+footer {
+  background-color: rgb(0, 66, 159);
+  font-family: "Roboto Condensed";
+}
+
+
+/* inicio de las animaciones */
+
+@keyframes float{
+  100%{
+    transform: translate(-50px, -50px);
+  }
+  25%{
+    transform: translate(-50px, 50px);
+  }
+  50%{
+    transform: translate(50px, -50px);
+  }
+  75%{
+    transform: translate(50px, 50px);
+  }
+}
+
+/* fin de las animaciones */
+}
