@@ -29,22 +29,18 @@ a{
   position: relative;
   }
 
-.header-and-main{
-    background-image: url(/Menu/images/wallpapers/index-wallpaper.jpg);
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: 100vw;
+  .header-and-main{
+    background-color: rgba(7, 34, 58);
   }
   
 .page-header{
   font-family: "Roboto Condensed";
   color: white;
   font-size: large;
-
   width: 100vw;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: start;
+  align-items: flex-start;
   flex-direction: column;
 }
 
@@ -54,6 +50,8 @@ a{
   flex-wrap: wrap;
   padding: 15px 15px;
   list-style: none;
+  display: flex;
+  flex-direction: column;
 }
 
 .page_header_nav li{
@@ -81,21 +79,89 @@ a{
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  height: 100vh;
-  align-items: center;
+  height: 100vw;
   padding: 20px 0px;
 }
 
+.main_principal_container{
+  display: flex;
+  flex-direction: column;
+    width: 80%;
+    align-items: center;
+  }
 
-@media (min-width: 992px){
+  .main_principal_wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    justify-content: center;
+    height: 90%;
+    }
 
+    .main_principal_wrapper_tittle{
+      font-family: "Roboto Condensed";
+      font-style: normal;
+      text-align: center;
+}
 
+.main_principal_wrapper_slogan{
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  text-align: center;
+}
+
+.main_principal_wrapper_paragraph{
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  text-align: center;
+}
+
+.header-and-main{
+  background-image: url(/Menu/images/wallpapers/index-wallpaper.jpg);
+  background-position: center center;
+  background-size: 100vw;
+  background-repeat: no-repeat;
+}
 
 .page-header{
   font-family: "Roboto Condensed";
   color: white;
   font-size: large;
   list-style: none;
+}
+
+.main_principal_container{
+  display: flex;
+  flex-direction: row;
+    width: 80%;
+  }
+
+  .main_principal_wrapper{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    justify-content: flex-start;
+    height: 100%;
+    }
+
+    .main_principal_wrapper_logo{
+      width: 200px;
+      border: 16rem;
+    }
+
+.tranceparent_logo{
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+/* DESKTOP VERSION */
+
+@media (min-width: 992px){
+
+
+.page-header{
   width: 100%;
   height: 55px;
   display: grid;
@@ -200,6 +266,13 @@ height: 100%;
   animation-duration: 10s;
   justify-self: end;
 }
+
+.tranceparent_logo{
+  width: 550px;
+  height: 550px;
+  border-radius: 50px;
+}
+
 
 /* Fin estilos principal */
 
@@ -489,6 +562,9 @@ border-radius: 10px;
   font-family: "Roboto Condensed";
   padding: 0 30px;
   display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  
 }
 
 /* inicio de las animaciones */
