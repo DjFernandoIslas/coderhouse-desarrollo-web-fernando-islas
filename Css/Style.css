@@ -39,9 +39,10 @@ a{
   font-size: large;
   width: 100vw;
   display: flex;
-  justify-content: start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
+  text-align: center;
 }
 
 .page_header_nav{
@@ -52,6 +53,8 @@ a{
   list-style: none;
   display: flex;
   flex-direction: column;
+  text-align: center;
+  align-items: center;
 }
 
 .page_header_nav li{
@@ -120,7 +123,7 @@ a{
   background-image: url(/Menu/images/wallpapers/index-wallpaper.jpg);
   background-position: center center;
   background-attachment: fixed;
-  background-size: 100vw;
+  background-size: 220vw;
   background-repeat: no-repeat;
 }
 
@@ -141,19 +144,69 @@ a{
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  width: 500px;
+  width: 200px;
   justify-content: center;
   height: 100%;
   }
 
-
-
-
+  
 .tranceparent_logo{
   width: 250px;
   height: 250px;
   border-radius: 10px;
 }
+
+  .our_work{
+    background-color: rgba(0, 35, 61, 0.879);
+    color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  }
+
+  .our_work_wrapper{
+    font-family: "Roboto Condensed";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 10px;
+  }
+
+.our_work_cards{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+  .our_work_cards-card{
+    background-color: rgb(182, 221, 255);
+    color: black;
+    font-family: "Roboto Condensed";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    padding: 8px;
+    transition: all 2s;
+  }
+
+  
+.footer {
+  background-color: rgb(8, 111, 255);
+  font-family: "Roboto Condensed";
+  padding: 0 30px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  
+}
+
 
 /* DESKTOP VERSION */
 
@@ -280,21 +333,38 @@ height: 100%;
 .our_work{
   background-color: rgba(0, 35, 61, 0.879);
   color: white;
-display: grid;
-grid-template-areas:
-"tittle card01 card02 card05"
-"tittle card03 card04 card06";
-grid-template-rows: 1fr 1fr;
-grid-template-columns: 1fr 1fr 1fr 1fr;
-padding: 40px;
 }
 
-.our_work_wrapper{
-  grid-area: tittle;
+.our_work_cards{
+  width: 100vw;
+  display: grid;
+  grid-template-areas:
+  "card01 card02 card05"
+  "card03 card04 card06";
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 40px 0 40px;
+  gap: 60px;
+  margin: 0px;
+}
+
+.our_work_cards-card{
+  background-color: rgb(182, 221, 255);
+  color: black;
+  font-family: "Roboto Condensed";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: flex-start;
+  border-radius: 20px;
+  width: 200px;
+  height: 200px;
+  padding: 8px;
+  transition: all 2s;
 }
+
 
 .card01{
   grid-area: card01;
@@ -553,18 +623,6 @@ border-radius: 10px;
 }
 
 /* fin estilos legales */
-
-/* footer estilos */
-
-.footer {
-  background-color: rgb(8, 111, 255);
-  font-family: "Roboto Condensed";
-  padding: 0 30px;
-  display: flex;
-  justify-content: center;
-  justify-content: space-around;
-  
-}
 
 /* inicio de las animaciones */
 
