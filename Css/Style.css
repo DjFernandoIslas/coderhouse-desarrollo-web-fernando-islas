@@ -249,12 +249,22 @@ a{
   text-align: center;
 }
 
-.recoms_images {
-  width: 100vw;
-  display: block;
-  text-align: center;
+.recoms_images{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
+.imagen_menu{
+  width: 50%;
+  padding: 5px;
+}
+
+.nosotros {
+  background-color: rgb(10, 120, 175);
+}
 
 
 /* DESKTOP VERSION */
@@ -531,6 +541,11 @@ border-radius: 10px;
   text-align: center;
 }
 
+.imagen_menu{
+  height: 500px;
+  width: 50%;
+}
+
 /* Fin estilo de recomendaciones de menu */
 
 /* Inicio estilos de promos */
@@ -557,9 +572,7 @@ border-radius: 10px;
 
 /* inicio estilos nosotros */
 
-.nosotros {
-  background-color: rgb(10, 120, 175);
-}
+
 
 .nosotros_tittle {
   color: white;
