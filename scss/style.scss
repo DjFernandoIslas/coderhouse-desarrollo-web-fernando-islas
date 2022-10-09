@@ -1,0 +1,768 @@
+/* Resets */
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .fixed {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .whatsapp-img{
+    width: 70px;
+    height: 70px;
+  }
+  
+  .html{
+    font-family: "Roboto Condensed";
+  }
+  
+  
+  
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  /* inicio estilos del header principal */
+  
+  .audio{
+    width: 100%;
+    background-color: rgb(10, 44, 74);
+    position: relative;
+    }
+  
+    .header-and-main{
+      background-color: rgb(9, 39, 65);
+    }
+    
+  .page-header{
+    font-family: "Roboto Condensed";
+    color: white;
+    font-size: large;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .page_header_nav{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 15px 15px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .page_header_nav li{
+    padding-left: 15px;
+  }
+  
+  .page_header_nav li ul{
+    list-style: none;
+  }
+  
+  .header-logo{
+    height: 40px;
+  }
+  
+  .page_header_nav a{
+    color: antiquewhite;
+  }
+  
+  .page-header_nav a.active{
+    color: white;
+  }
+  
+  .main_principal{
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    height: 100vw;
+    padding: 0 0;
+  }
+  
+  .main_principal_container{
+    display: flex;
+    flex-direction: column;
+      width: 80%;
+      align-items: center;
+    }
+  
+    .main_principal_wrapper{
+      display: flex;
+      flex-direction: column;
+      width: 50vw;
+      justify-content: center;
+      height: 90%;
+      }
+  
+      .main_principal_wrapper_tittle{
+        font-family: "Roboto Condensed";
+        font-style: normal;
+        text-align: center;
+  }
+  
+  .main_principal_wrapper_slogan{
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    text-align: center;
+  }
+  
+  .main_principal_wrapper_paragraph{
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    text-align: center;
+  }
+  
+  .header-and-main{
+    background-image: url(/Menu/images/wallpapers/index-wallpaper.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 220vw;
+    background-repeat: no-repeat;
+  }
+  
+  .page-header{
+    font-family: "Roboto Condensed";
+    color: white;
+    font-size: large;
+    list-style: none;
+  }
+  
+  .main_principal_container{
+    display: flex;
+    flex-direction: column;
+      width: 80%;
+    }
+    
+    .main_principal_wrapper{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    justify-content: center;
+    height: 100%;
+    }
+  
+    
+  .tranceparent_logo{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+  }
+  
+    .our_work{
+      background-color: rgba(0, 35, 61, 0.879);
+      color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    }
+  
+    .our_work_wrapper{
+      font-family: "Roboto Condensed";
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 0 10px;
+    }
+  
+  .our_work_cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+    .our_work_cards-card{
+      background-color: rgb(182, 221, 255);
+      color: black;
+      font-family: "Roboto Condensed";
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 700;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      border-radius: 20px;
+      width: 200px;
+      height: 200px;
+      padding: 8px;
+      transition: all 2s;
+      margin: 5px;
+    }
+  
+    
+  .footer {
+    background-color: rgb(8, 111, 255);
+    font-family: "Roboto Condensed";
+    padding: 0 30px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+  }
+  
+  .menu_tittle{
+    color: white;
+    font-family: "Roboto Condensed";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 200;
+    text-align: center;
+    height: 30%;
+  }
+  
+  .menu_table{
+    background-color: rgb(10, 120, 175);
+  }
+  
+  .tabla_menu{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 10px 0 10px;
+    overflow-x: scroll;
+    position: relative;
+  }
+  
+  .recoms{
+    background-color: rgb(9, 39, 66);
+    font-family: "Roboto Condensed";
+  }
+  
+  .recoms p{
+    font-size: 16px;
+  }
+  
+  .recoms_tittle {
+    color: white;
+    font-family: "Roboto Condensed";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 200;
+    text-align: center;
+  }
+  
+  .recoms_images{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .imagen_menu{
+    width: 50%;
+    padding: 5px;
+  }
+  
+  .nosotros {
+    background-color: rgb(10, 120, 175);
+  }
+  
+  .header_wallpaper{
+    background-image: url(/Menu/images/wallpapers/index-wallpaper.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 220vw;
+    background-repeat: no-repeat;
+  }
+  
+  .nosotros_tittle {
+    color: white;
+    font-family: "Roboto Condensed";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 200;
+    text-align: center;
+  }
+  
+  .nosotros_subtitle {
+    color: white;
+    font-family: "Roboto Condensed";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+    text-align: center;
+  }
+  
+  .mapa{
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  
+  
+  .promos {
+    background-color: rgb(10, 120, 175);
+  }
+  .promo_tittle {
+    color: white;
+    font-family: "Roboto Condensed";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 200;
+    text-align: center;
+  }
+  
+  .promo_media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .promo_content{
+    margin: 10px;
+    border-radius: 30px;
+    height: 200px;
+  }
+  
+  
+  .contact{
+    background-color: rgba(7, 34, 58, 0.934);
+  }
+  
+  .contact_tittle {
+    color: white;
+    font-family: "Roboto Condensed";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 200;
+    text-align: center;
+  }
+  
+  .contact_subtitle {
+    color: white;
+    font-family: "Roboto Condensed";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+    text-align: center;
+  }
+  
+  .form_contact{
+    display: block;
+    text-align: center;
+  }
+  
+  .contact_thanks_img{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 50%;
+  }
+  
+  .contact_header{
+    background-image: url(/Menu/images/wallpapers/index-wallpaper.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 220vw;
+    background-repeat: no-repeat;
+  }
+  
+  /* DESKTOP VERSION */
+  
+  @media (min-width: 992px){
+  
+  
+  .page-header{
+    width: 100%;
+    height: 55px;
+    display: grid;
+    grid-template-columns: 200px auto; 
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(24,58,105);
+    background: linear-gradient(180deg, rgba(24,58,105,0.8884687664128151) 19%, rgba(17,50,105,0.4767040605304622) 76%, rgba(255,255,255,0) 100%);
+  }
+  
+  .page_header_nav{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: end;
+    gap: 0 20px;
+    list-style: none;
+  }
+  
+  .page-header ul ul{
+    display: none;
+    position: absolute;
+    background-color: rgb(0, 21, 92);
+    width: 60px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+  }
+  
+  .page-header ul ul li{
+    display: block;
+  }
+  
+  .page-header ul li:hover ul{
+    display: block;
+  }
+  
+  .page_header_nav-button{
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 10px 15px;
+    margin-left: 20px;
+  }
+  
+  
+  
+  /* lista del header */
+  
+  .link {
+    text-decoration-color: white;
+  }
+  
+  /* fin estilos del header */
+  
+  /* Inicio estilos Principal */
+  
+  
+  .main_principal_container{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+    width: 80%;
+  }
+  
+  .main_principal_wrapper{
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  justify-content: center;
+  height: 100%;
+  }
+  
+  .main_principal_wrapper_tittle{
+    font-family: "Roboto Condensed";
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .main_principal_wrapper_slogan{
+    font-family: "Roboto Condensed";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .main_principal_wrapper_paragraph{
+    font-family: "Roboto Condensed";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 200;
+    text-align: center;
+  }
+  
+  .main_principal_wrapper_logo{
+    width: 550px;
+    border: 16rem;
+    transform: translate(-50px, -50px);
+    animation-name: float;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 10s;
+    justify-self: end;
+  }
+  
+  .tranceparent_logo{
+    width: 550px;
+    height: 550px;
+    border-radius: 50px;
+  }
+  
+  
+  /* Fin estilos principal */
+  
+  /* inicio estilos features */
+  
+  .our_work{
+    background-color: rgba(0, 35, 61, 0.879);
+    color: white;
+  }
+  
+  .our_work_cards{
+    width: 100vw;
+    display: grid;
+    grid-template-areas:
+    "card01 card02 card05"
+    "card03 card04 card06";
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 40px 0 40px;
+    gap: 60px;
+    margin: 0px;
+  }
+  
+  .our_work_cards-card{
+    background-color: rgb(182, 221, 255);
+    color: black;
+    font-family: "Roboto Condensed";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    padding: 8px;
+    transition: all 2s;
+  }
+  
+  
+  .card01{
+    grid-area: card01;
+  }
+  .card02{
+    grid-area: card02;
+  }
+  .card03{
+    grid-area: card03;
+  }
+  .card04{
+    grid-area: card04;
+  }
+  .card05{
+    grid-area: card05;
+  }
+  .card06{
+    grid-area: card06;
+  }
+  
+  .our_work_tittle{
+    font-family: "Roboto Condensed";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .our_work_subtitle{
+    font-family: "Roboto Condensed";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .our_work_cards-card{
+    background-color: rgb(182, 221, 255);
+    color: black;
+    font-family: "Roboto Condensed";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+    padding: 8px;
+    transition: all 2s;
+  }
+  
+  .our_work_cards-card:hover{
+  transform: scale(1.3);
+  background-color: white;
+  border-radius: 10px;
+  }
+  
+  .our_work_cards-card p{
+    font-size: 22px;
+  }
+  
+  /* fin estilos features */
+  
+  /* Inicio estilos de MENU */
+  
+  .menu_tittle{
+    color: white;
+    font-family: "Roboto Condensed";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 200;
+    text-align: center;
+  }
+  
+  .menu_table{
+    background-color: rgb(10, 120, 175);
+  }
+  
+  .tabla_menu{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0 10px;
+    overflow: visible;
+  }
+  
+  /* Fin estilos de MENU */
+  
+  /* Inicio estilos de recomendaciones de Menu */
+  
+  .recoms{
+    background-color: rgb(7, 34, 58);
+    font-family: "Roboto Condensed";
+  }
+  
+  .recoms p{
+    font-size: 16px;
+  }
+  
+  .recoms_tittle {
+    color: white;
+    font-family: "Roboto Condensed";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 200;
+    text-align: center;
+  }
+  
+  .recoms_images {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  
+  .imagen_menu{
+    height: 500px;
+    width: 50%;
+  }
+  
+  /* Fin estilo de recomendaciones de menu */
+  
+  /* Inicio estilos de promos */
+  
+  .promo_media {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .promo_content{
+    margin: 10px;
+    border-radius: 30px;
+    width: 500px;
+    height: 500px;
+  }
+  
+  .promo_media {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* fin estilo de promos */
+  
+  .contact_img{
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  
+  /* inicio estilos submenu */
+  
+  .submenu {
+    background-color: rgb(7, 34, 58);
+  }
+  
+  .submenu_tittle {
+    color: white;
+    font-family: "Roboto Condensed";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 200;
+    text-align: center;
+  }
+  
+  .submenu_subtitle {
+    color: white;
+    font-family: "Roboto Condensed";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+    text-align: center;
+  }
+  
+  .submenu_imgs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .submenu_media{
+    height: 400px;
+    width: 400px;
+  }
+  
+  /* fin estilos submenu */
+  
+  /* inicio estilos legales */
+  
+  .legal_button{
+    font-family: "Roboto Condensed";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 200;
+    text-align: center;
+    background-color: rgb(21, 120, 186);
+    padding: 20px 0 20px 0;
+  }
+  
+  .legales{
+    background-color: rgb(7, 34, 58);
+    display: block;
+    text-align: left;
+    color:white;
+  }
+  
+  /* fin estilos legales */
+  
+  /* inicio de las animaciones */
+  
+  @keyframes float{
+    100%{
+      transform: translate(-50px, -50px);
+    }
+    25%{
+      transform: translate(-50px, 50px);
+    }
+    50%{
+      transform: translate(50px, -50px);
+    }
+    75%{
+      transform: translate(50px, 50px);
+    }
+  }
+  
+  /* fin de las animaciones */
+  }
