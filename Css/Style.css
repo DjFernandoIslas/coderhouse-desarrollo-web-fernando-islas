@@ -49,9 +49,8 @@ a {
   flex-direction: column;
   text-align: center;
   align-items: center; }
-
-.page_header_nav li {
-  padding-left: 15px; }
+  .page_header_nav li {
+    padding-left: 15px; }
 
 .page_header_nav li ul {
   list-style: none; }
@@ -548,8 +547,12 @@ a {
     text-align: center; }
   .submenu_imgs {
     width: 100%;
-    display: block;
+    display: flex;
+    flex-direction: column;
     text-align: center; }
+  .submenu_media {
+    height: 400px;
+    width: 400px; }
   /* fin estilos submenu */
   /* inicio estilos legales */
   .legal_button {

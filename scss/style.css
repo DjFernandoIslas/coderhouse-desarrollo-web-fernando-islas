@@ -1,11 +1,3 @@
-// Include any default variable overrides here (though functions won't be available)
-
-@import "../node_modules/bootstrap/scss/bootstrap";
-
-// Then add additional custom code here
-
-
-
 /* Resets */
 * {
   margin: 0;
@@ -31,8 +23,8 @@ a {
   text-decoration: none;
   color: black;
 }
-/* inicio estilos del header principal */
 
+/* inicio estilos del header principal */
 .audio {
   width: 100%;
   background-color: rgb(10, 44, 74);
@@ -65,9 +57,9 @@ a {
   flex-direction: column;
   text-align: center;
   align-items: center;
-  li {
-    padding-left: 15px;
-  }
+}
+.page_header_nav li {
+  padding-left: 15px;
 }
 
 .page_header_nav li ul {
@@ -308,6 +300,7 @@ a {
 .promos {
   background-color: rgb(10, 120, 175);
 }
+
 .promo_tittle {
   color: white;
   font-family: "Roboto Condensed";
@@ -373,34 +366,56 @@ a {
 }
 
 /* DESKTOP VERSION */
-
 @media (min-width: 992px) {
-
-/* estilo boton de nav */
-
+  .page-header {
+    width: 100%;
+    height: 55px;
+    display: grid;
+    grid-template-columns: 200px auto;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(24, 58, 105);
+    background: linear-gradient(180deg, rgba(24, 58, 105, 0.8884687664) 19%, rgba(17, 50, 105, 0.4767040605) 76%, rgba(255, 255, 255, 0) 100%);
+  }
+  .page_header_nav {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: end;
+    gap: 0 20px;
+    list-style: none;
+  }
+  .page-header ul ul {
+    display: none;
+    position: absolute;
+    background-color: rgb(0, 21, 92);
+    width: 60px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+  }
+  .page-header ul ul li {
+    display: block;
+  }
+  .page-header ul li:hover ul {
+    display: block;
+  }
   .page_header_nav-button {
     border: 1px solid white;
     border-radius: 40px;
     padding: 10px 15px;
     margin-left: 20px;
   }
-
   /* lista del header */
-
   .link {
-    text-decoration-color: white;
+    -webkit-text-decoration-color: white;
+            text-decoration-color: white;
   }
-
   /* fin estilos del header */
-
   /* Inicio estilos Principal */
-
   .main_principal_container {
     display: grid;
     grid-template-columns: 1fr 2fr;
     width: 80%;
   }
-
   .main_principal_wrapper {
     overflow: hidden;
     display: flex;
@@ -409,7 +424,6 @@ a {
     justify-content: center;
     height: 100%;
   }
-
   .main_principal_wrapper_tittle {
     font-family: "Roboto Condensed";
     font-size: 90px;
@@ -417,7 +431,6 @@ a {
     font-weight: 700;
     text-align: center;
   }
-
   .main_principal_wrapper_slogan {
     font-family: "Roboto Condensed";
     font-size: 50px;
@@ -425,7 +438,6 @@ a {
     font-weight: 700;
     text-align: center;
   }
-
   .main_principal_wrapper_paragraph {
     font-family: "Roboto Condensed";
     font-size: 15px;
@@ -433,46 +445,41 @@ a {
     font-weight: 200;
     text-align: center;
   }
-
   .main_principal_wrapper_logo {
     width: 550px;
     border: 16rem;
     transform: translate(-50px, -50px);
-    animation-name: float;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
-    animation-duration: 10s;
+    -webkit-animation-name: float;
+            animation-name: float;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    -webkit-animation-duration: 10s;
+            animation-duration: 10s;
     justify-self: end;
   }
-
   .tranceparent_logo {
     width: 550px;
     height: 550px;
     border-radius: 50px;
   }
-
   /* Fin estilos principal */
-
   /* inicio estilos features */
-
   .our_work {
     background-color: rgba(0, 35, 61, 0.879);
     color: white;
   }
-
   .our_work_cards {
     width: 100vw;
     display: grid;
-    grid-template-areas:
-      "card01 card02 card05"
-      "card03 card04 card06";
+    grid-template-areas: "card01 card02 card05" "card03 card04 card06";
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 40px 0 40px;
     gap: 60px;
     margin: 0px;
   }
-
   .our_work_cards-card {
     background-color: rgb(182, 221, 255);
     color: black;
@@ -489,7 +496,6 @@ a {
     padding: 8px;
     transition: all 2s;
   }
-
   .card01 {
     grid-area: card01;
   }
@@ -508,7 +514,6 @@ a {
   .card06 {
     grid-area: card06;
   }
-
   .our_work_tittle {
     font-family: "Roboto Condensed";
     font-size: 40px;
@@ -516,7 +521,6 @@ a {
     font-weight: 700;
     text-align: center;
   }
-
   .our_work_subtitle {
     font-family: "Roboto Condensed";
     font-size: 20px;
@@ -524,7 +528,6 @@ a {
     font-weight: 700;
     text-align: center;
   }
-
   .our_work_cards-card {
     background-color: rgb(182, 221, 255);
     color: black;
@@ -541,21 +544,16 @@ a {
     padding: 8px;
     transition: all 2s;
   }
-
   .our_work_cards-card:hover {
     transform: scale(1.3);
     background-color: white;
     border-radius: 10px;
   }
-
   .our_work_cards-card p {
     font-size: 22px;
   }
-
   /* fin estilos features */
-
   /* Inicio estilos de MENU */
-
   .menu_tittle {
     color: white;
     font-family: "Roboto Condensed";
@@ -564,11 +562,9 @@ a {
     font-weight: 200;
     text-align: center;
   }
-
   .menu_table {
     background-color: rgb(10, 120, 175);
   }
-
   .tabla_menu {
     text-align: center;
     display: flex;
@@ -577,20 +573,15 @@ a {
     padding: 10px 0 10px;
     overflow: visible;
   }
-
   /* Fin estilos de MENU */
-
   /* Inicio estilos de recomendaciones de Menu */
-
   .recoms {
     background-color: rgb(7, 34, 58);
     font-family: "Roboto Condensed";
   }
-
   .recoms p {
     font-size: 16px;
   }
-
   .recoms_tittle {
     color: white;
     font-family: "Roboto Condensed";
@@ -599,22 +590,17 @@ a {
     font-weight: 200;
     text-align: center;
   }
-
   .recoms_images {
     width: 100%;
     display: block;
     text-align: center;
   }
-
   .imagen_menu {
     height: 500px;
     width: 50%;
   }
-
   /* Fin estilo de recomendaciones de menu */
-
   /* Inicio estilos de promos */
-
   .promo_media {
     width: 100vw;
     display: flex;
@@ -622,35 +608,28 @@ a {
     align-items: center;
     justify-content: center;
   }
-
   .promo_content {
     margin: 10px;
     border-radius: 30px;
     width: 500px;
     height: 500px;
   }
-
   .promo_media {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-
   /* fin estilo de promos */
-
   .contact_img {
     width: 100%;
     display: flex;
     align-items: center;
   }
-
   /* inicio estilos submenu */
-
   .submenu {
     background-color: rgb(7, 34, 58);
   }
-
   .submenu_tittle {
     color: white;
     font-family: "Roboto Condensed";
@@ -659,7 +638,6 @@ a {
     font-weight: 200;
     text-align: center;
   }
-
   .submenu_subtitle {
     color: white;
     font-family: "Roboto Condensed";
@@ -668,23 +646,18 @@ a {
     font-weight: 200;
     text-align: center;
   }
-
   .submenu_imgs {
     width: 100%;
     display: flex;
     flex-direction: column;
     text-align: center;
   }
-
   .submenu_media {
     height: 400px;
     width: 400px;
   }
-
   /* fin estilos submenu */
-
   /* inicio estilos legales */
-
   .legal_button {
     font-family: "Roboto Condensed";
     font-size: 25px;
@@ -694,18 +667,28 @@ a {
     background-color: rgb(21, 120, 186);
     padding: 20px 0 20px 0;
   }
-
   .legales {
     background-color: rgb(7, 34, 58);
     display: block;
     text-align: left;
     color: white;
   }
-
   /* fin estilos legales */
-
   /* inicio de las animaciones */
-
+  @-webkit-keyframes float {
+    100% {
+      transform: translate(-50px, -50px);
+    }
+    25% {
+      transform: translate(-50px, 50px);
+    }
+    50% {
+      transform: translate(50px, -50px);
+    }
+    75% {
+      transform: translate(50px, 50px);
+    }
+  }
   @keyframes float {
     100% {
       transform: translate(-50px, -50px);
@@ -720,6 +703,5 @@ a {
       transform: translate(50px, 50px);
     }
   }
-
   /* fin de las animaciones */
-}
+}/*# sourceMappingURL=style.css.map */
