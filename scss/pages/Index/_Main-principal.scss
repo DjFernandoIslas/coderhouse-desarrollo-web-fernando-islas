@@ -1,0 +1,133 @@
+
+
+.main_principal {
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    height: 100vw;
+    padding: 0 0;
+  }
+  
+  .main_principal_container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+  }
+
+  .main_principal_wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    justify-content: center;
+    height: 90%;
+  }
+  
+  
+  .main_principal_wrapper_tittle {
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    text-align: center;
+  }
+  
+  .main_principal_wrapper_slogan {
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    text-align: center;
+  }
+  
+  .main_principal_wrapper_paragraph {
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    text-align: center;
+  }
+
+  .tranceparent_logo {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+  }
+
+  @media (min-width: 992px){
+
+    .main_principal{
+      height: 64vw;
+    }
+
+    .main_principal_container {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        width: 80%;
+      }
+    
+      .main_principal_wrapper {
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        justify-content: center;
+        height: 100%;
+      }
+    
+      .main_principal_wrapper_tittle {
+        font-family: "Roboto Condensed";
+        font-size: 90px;
+        font-style: normal;
+        font-weight: 700;
+        text-align: center;
+      }
+    
+      .main_principal_wrapper_slogan {
+        font-family: "Roboto Condensed";
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        text-align: center;
+      }
+    
+      .main_principal_wrapper_paragraph {
+        font-family: "Roboto Condensed";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 200;
+        text-align: center;
+      }
+    
+      .main_principal_wrapper_logo {
+        width: 550px;
+        border: 16rem;
+        transform: translate(-50px, -50px);
+        animation-name: float;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        animation-duration: 10s;
+        justify-self: end;
+      }
+    
+      .tranceparent_logo {
+        width: 550px;
+        height: 550px;
+        border-radius: 50px;
+      }
+
+      /*Inicio de animaciones */
+    
+      @keyframes float {
+        100% {
+          transform: translate(-50px, -50px);
+        }
+        25% {
+          transform: translate(-50px, 50px);
+        }
+        50% {
+          transform: translate(50px, -50px);
+        }
+        75% {
+          transform: translate(50px, 50px);
+        }
+      }
+    
+      /* fin de las animaciones */
+
+  }
