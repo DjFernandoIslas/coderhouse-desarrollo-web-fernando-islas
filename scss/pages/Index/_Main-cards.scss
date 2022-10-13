@@ -16,6 +16,23 @@
   color: white;
 }
 
+.our_work_tittle {
+  font-family: "Roboto Condensed";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+}
+
+.our_work_subtitle {
+  font-family: "Roboto Condensed";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  align-items: center;
+}
+
 .our_work_cards {
   display: flex;
   flex-direction: column;
@@ -36,25 +53,9 @@
   padding: 8px;
   transition: all 2s;
   margin: 5px;
-  background-color: $danger;
-    color: white;
+  background-color: $light;
+    color: black;
 }
-
-.our_work_cards-card {
-  color: white;
-  font-family: "Roboto Condensed";
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 700;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  border-radius: 20px;
-  width: 200px;
-  height: 200px;
-  padding: 8px;
-  transition: all 2s;
-  }
 
 @media (min-width: 992px) {
   .our_work {
@@ -71,22 +72,7 @@
     color: white;
   }
 
-  .our_work_tittle {
-    font-family: "Roboto Condensed";
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    text-align: center;
-  }
 
-  .our_work_subtitle {
-    font-family: "Roboto Condensed";
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    text-align: center;
-    align-items: center;
-  }
 
   .our_work_cards {
     width: 100vw;
@@ -111,7 +97,7 @@
     align-items: flex-start;
     border-radius: 20px;
     width: 250px;
-    height: 250px;
+    height: 325px;
     padding: 8px;
     transition: all 2s;
     margin: 5px;
