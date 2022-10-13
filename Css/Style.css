@@ -8386,11 +8386,9 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
-.shadowed {
-  box-shadow: 37px 37px 26px -25px rgba(0, 0, 0, 0.46);
-  -webkit-box-shadow: 37px 37px 26px -25px rgba(0, 0, 0, 0.46);
-  -moz-box-shadow: 37px 37px 26px -25px rgba(0, 0, 0, 0.46); }
-
+/*
+REVISANDOOOOOO
+*/
 .padding-1 {
   padding: 1rem; }
 
@@ -8907,6 +8905,9 @@ a {
     gap: 245px;
     margin: 0px; }
   .our_work_cards-card {
+    box-shadow: 37px 37px 26px -25px rgba(0, 0, 0, 0.46);
+    -webkit-box-shadow: 37px 37px 26px -25px rgba(0, 0, 0, 0.46);
+    -moz-box-shadow: 37px 37px 26px -25px rgba(0, 0, 0, 0.46);
     font-family: "Roboto Condensed";
     font-size: 15px;
     font-style: normal;
@@ -8936,6 +8937,7 @@ a {
   .our_work_cards-card:hover {
     transform: scale(1.3);
     background-color: #003547;
-    border-radius: 10px; }
+    border-radius: 10px;
+    color: white; }
   .our_work_cards-card p {
     font-size: 22px; } }

@@ -54,7 +54,7 @@
   transition: all 2s;
   margin: 5px;
   background-color: $light;
-    color: black;
+  color: black;
 }
 
 @media (min-width: 992px) {
@@ -72,8 +72,6 @@
     color: white;
   }
 
-
-
   .our_work_cards {
     width: 100vw;
     display: grid;
@@ -88,7 +86,9 @@
   }
 
   .our_work_cards-card {
-    @extend .shadowed;
+    box-shadow: 37px 37px 26px -25px rgba(0, 0, 0, 0.46);
+    -webkit-box-shadow: 37px 37px 26px -25px rgba(0, 0, 0, 0.46);
+    -moz-box-shadow: 37px 37px 26px -25px rgba(0, 0, 0, 0.46);
     font-family: "Roboto Condensed";
     font-size: 15px;
     font-style: normal;
@@ -103,34 +103,36 @@
     transition: all 2s;
     margin: 5px;
     background-color: $light;
+    /*quise hacer el box shadow con @extend pero no me dejaba al estar dentro del media*/
   }
 
-    .card01 {
-      grid-area: card01;
-    }
-    .card02 {
-      grid-area: card02;
-    }
-    .card03 {
-      grid-area: card03;
-    }
-    .card04 {
-      grid-area: card04;
-    }
-    .card05 {
-      grid-area: card05;
-    }
-    .card06 {
-      grid-area: card06;
-    }
-  
-    .our_work_cards-card:hover {
-      transform: scale(1.3);
-      background-color: rgb(0, 53, 71);
-      border-radius: 10px;
-    }
-  
-    .our_work_cards-card p {
-      font-size: 22px;
-    }
+  .card01 {
+    grid-area: card01;
   }
+  .card02 {
+    grid-area: card02;
+  }
+  .card03 {
+    grid-area: card03;
+  }
+  .card04 {
+    grid-area: card04;
+  }
+  .card05 {
+    grid-area: card05;
+  }
+  .card06 {
+    grid-area: card06;
+  }
+
+  .our_work_cards-card:hover {
+    transform: scale(1.3);
+    background-color: rgb(0, 53, 71);
+    border-radius: 10px;
+    color: white;
+  }
+
+  .our_work_cards-card p {
+    font-size: 22px;
+  }
+}
