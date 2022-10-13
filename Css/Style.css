@@ -8921,7 +8921,8 @@ a {
     padding: 8px;
     transition: all 2s;
     margin: 5px;
-    background-color: #f4f4f4; }
+    background-color: #f4f4f4;
+    /*quise hacer el box shadow con @extend pero no me dejaba al estar dentro del media*/ }
   .card01 {
     grid-area: card01; }
   .card02 {
