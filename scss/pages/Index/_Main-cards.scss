@@ -88,6 +88,7 @@
   }
 
   .our_work_cards-card {
+    @extend .shadowed;
     font-family: "Roboto Condensed";
     font-size: 15px;
     font-style: normal;

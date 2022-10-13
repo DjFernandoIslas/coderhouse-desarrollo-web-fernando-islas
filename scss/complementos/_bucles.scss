@@ -1,0 +1,11 @@
+@for $i from 1 through 10 {
+    .padding-#{$i}{
+        padding: 1rem * $i;
+    }
+}
+
+@each $color, $color-claro in $categories {
+.our_works--#{$color}{
+    background-color: map-get($color-claro, color);
+}    
+}
