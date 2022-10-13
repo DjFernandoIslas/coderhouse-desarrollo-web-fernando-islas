@@ -1,0 +1,19 @@
+.header-logo {
+    height: 40px;
+  }
+  
+  .page-header {
+    font-family: "Roboto Condensed";
+    color: white;
+    font-size: large;
+    list-style: none;
+  }
+
+  @media (min-width: 992px){
+    .page_header_nav-button {
+        border: 1px solid white;
+        border-radius: 40px;
+        padding: 10px 15px;
+        margin-left: 20px;
+      }
+  }

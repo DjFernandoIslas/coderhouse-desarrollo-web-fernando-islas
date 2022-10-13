@@ -10978,6 +10978,70 @@ a {
 }
 
 /*Estilos logo del header */
+.footer {
+  background-color: rgb(8, 111, 255);
+  font-family: "Roboto Condensed";
+  padding: 0 30px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+  .link {
+    -webkit-text-decoration-color: white;
+            text-decoration-color: white;
+  }
+  .submenu {
+    background-color: rgb(7, 34, 58);
+  }
+  .submenu_tittle {
+    color: white;
+    font-family: "Roboto Condensed";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 200;
+    text-align: center;
+  }
+  .submenu_subtitle {
+    color: white;
+    font-family: "Roboto Condensed";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+    text-align: center;
+  }
+  .submenu_imgs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .submenu_media {
+    height: 400px;
+    width: 400px;
+  }
+  /* fin estilos submenu */
+  /* inicio estilos legales */
+  .legal_button {
+    font-family: "Roboto Condensed";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 200;
+    text-align: center;
+    background-color: rgb(21, 120, 186);
+    padding: 20px 0 20px 0;
+  }
+  .legales {
+    background-color: rgb(7, 34, 58);
+    display: block;
+    text-align: left;
+    color: white;
+  }
+  /* fin estilos legales */
+  /* inicio de las animaciones */
+}
 .header-logo {
   height: 40px;
 }
@@ -10989,21 +11053,14 @@ a {
   list-style: none;
 }
 
-.tranceparent_logo {
-  width: 250px;
-  height: 250px;
-  border-radius: 10px;
+@media (min-width: 992px) {
+  .page_header_nav-button {
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 10px 15px;
+    margin-left: 20px;
+  }
 }
-
-.footer {
-  background-color: rgb(8, 111, 255);
-  font-family: "Roboto Condensed";
-  padding: 0 30px;
-  display: flex;
-  justify-content: center;
-  justify-content: space-around;
-}
-
 .menu_tittle {
   color: white;
   font-family: "Roboto Condensed";
@@ -11059,6 +11116,97 @@ a {
   padding: 5px;
 }
 
+@media (min-width: 992px) {
+  .menu_tittle {
+    color: white;
+    font-family: "Roboto Condensed";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 200;
+    text-align: center;
+  }
+  .menu_table {
+    background-color: rgb(10, 120, 175);
+  }
+  .tabla_menu {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0 10px;
+    overflow: visible;
+  }
+  .recoms {
+    background-color: rgb(7, 34, 58);
+    font-family: "Roboto Condensed";
+  }
+  .recoms p {
+    font-size: 16px;
+  }
+  .recoms_tittle {
+    color: white;
+    font-family: "Roboto Condensed";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 200;
+    text-align: center;
+  }
+  .recoms_images {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  .imagen_menu {
+    height: 500px;
+    width: 50%;
+  }
+}
+.promos {
+  background-color: rgb(10, 120, 175);
+}
+
+.promo_tittle {
+  color: white;
+  font-family: "Roboto Condensed";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 200;
+  text-align: center;
+}
+
+.promo_media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.promo_content {
+  margin: 10px;
+  border-radius: 30px;
+  height: 200px;
+}
+
+@media (min-width: 992px) {
+  .promo_media {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .promo_content {
+    margin: 10px;
+    border-radius: 30px;
+    width: 500px;
+    height: 500px;
+  }
+  .promo_media {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .nosotros {
   background-color: rgb(10, 120, 175);
 }
@@ -11084,7 +11232,7 @@ a {
   color: white;
   font-family: "Roboto Condensed";
   font-size: 20px;
-  font-style: normal;
+  font-styse: normal;
   font-weight: 200;
   text-align: center;
 }
@@ -11093,31 +11241,6 @@ a {
   width: 100%;
   display: block;
   text-align: center;
-}
-
-.promos {
-  background-color: rgb(10, 120, 175);
-}
-
-.promo_tittle {
-  color: white;
-  font-family: "Roboto Condensed";
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 200;
-  text-align: center;
-}
-
-.promo_media {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.promo_content {
-  margin: 10px;
-  border-radius: 30px;
-  height: 200px;
 }
 
 .contact {
@@ -11163,143 +11286,12 @@ a {
   background-repeat: no-repeat;
 }
 
-/* DESKTOP VERSION */
 @media (min-width: 992px) {
-  /* estilo boton de nav */
-  .page_header_nav-button {
-    border: 1px solid white;
-    border-radius: 40px;
-    padding: 10px 15px;
-    margin-left: 20px;
-  }
-  /* lista del header */
-  .link {
-    -webkit-text-decoration-color: white;
-            text-decoration-color: white;
-  }
-  /* fin estilos del header */
-  /* Inicio estilos de MENU */
-  .menu_tittle {
-    color: white;
-    font-family: "Roboto Condensed";
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 200;
-    text-align: center;
-  }
-  .menu_table {
-    background-color: rgb(10, 120, 175);
-  }
-  .tabla_menu {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px 0 10px;
-    overflow: visible;
-  }
-  /* Fin estilos de MENU */
-  /* Inicio estilos de recomendaciones de Menu */
-  .recoms {
-    background-color: rgb(7, 34, 58);
-    font-family: "Roboto Condensed";
-  }
-  .recoms p {
-    font-size: 16px;
-  }
-  .recoms_tittle {
-    color: white;
-    font-family: "Roboto Condensed";
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 200;
-    text-align: center;
-  }
-  .recoms_images {
-    width: 100%;
-    display: block;
-    text-align: center;
-  }
-  .imagen_menu {
-    height: 500px;
-    width: 50%;
-  }
-  /* Fin estilo de recomendaciones de menu */
-  /* Inicio estilos de promos */
-  .promo_media {
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .promo_content {
-    margin: 10px;
-    border-radius: 30px;
-    width: 500px;
-    height: 500px;
-  }
-  .promo_media {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  /* fin estilo de promos */
   .contact_img {
     width: 100%;
     display: flex;
     align-items: center;
   }
-  /* inicio estilos submenu */
-  .submenu {
-    background-color: rgb(7, 34, 58);
-  }
-  .submenu_tittle {
-    color: white;
-    font-family: "Roboto Condensed";
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 200;
-    text-align: center;
-  }
-  .submenu_subtitle {
-    color: white;
-    font-family: "Roboto Condensed";
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 200;
-    text-align: center;
-  }
-  .submenu_imgs {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
-  .submenu_media {
-    height: 400px;
-    width: 400px;
-  }
-  /* fin estilos submenu */
-  /* inicio estilos legales */
-  .legal_button {
-    font-family: "Roboto Condensed";
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 200;
-    text-align: center;
-    background-color: rgb(21, 120, 186);
-    padding: 20px 0 20px 0;
-  }
-  .legales {
-    background-color: rgb(7, 34, 58);
-    display: block;
-    text-align: left;
-    color: white;
-  }
-  /* fin estilos legales */
-  /* inicio de las animaciones */
 }
 .main_principal {
   color: white;
@@ -11341,6 +11333,12 @@ a {
   font-family: "Roboto Condensed";
   font-style: normal;
   text-align: center;
+}
+
+.tranceparent_logo {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
 }
 
 @media (min-width: 992px) {
@@ -11446,6 +11444,7 @@ a {
   justify-content: center;
   align-items: center;
   padding: 10px 0 10px;
+  color: white;
 }
 
 .our_work_cards {
@@ -11455,8 +11454,6 @@ a {
 }
 
 .our_work_cards-card {
-  background-color: rgb(182, 221, 255);
-  color: black;
   font-family: "Roboto Condensed";
   font-size: 15px;
   font-style: normal;
@@ -11470,15 +11467,55 @@ a {
   padding: 8px;
   transition: all 2s;
   margin: 5px;
+  background-color: #840000;
+  color: white;
+}
+
+.our_work_cards-card {
+  color: white;
+  font-family: "Roboto Condensed";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 20px;
+  width: 200px;
+  height: 200px;
+  padding: 8px;
+  transition: all 2s;
 }
 
 @media (min-width: 992px) {
   .our_work {
-    background-color: rgba(0, 35, 61, 0.879);
+    color: #840000;
+  }
+  .our_work_wrapper {
+    font-family: "Roboto Condensed";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 10px;
     color: white;
   }
+  .our_work_tittle {
+    font-family: "Roboto Condensed";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+  }
+  .our_work_subtitle {
+    font-family: "Roboto Condensed";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+  }
   .our_work_cards {
-    width: 100vw;
+    width: 700px;
     display: grid;
     grid-template-areas: "card01 card02 card05" "card03 card04 card06";
     grid-template-rows: 1fr 1fr;
@@ -11488,8 +11525,6 @@ a {
     margin: 0px;
   }
   .our_work_cards-card {
-    background-color: rgb(182, 221, 255);
-    color: black;
     font-family: "Roboto Condensed";
     font-size: 15px;
     font-style: normal;
@@ -11502,6 +11537,8 @@ a {
     height: 200px;
     padding: 8px;
     transition: all 2s;
+    margin: 5px;
+    background-color: #840000;
   }
   .card01 {
     grid-area: card01;
@@ -11521,39 +11558,9 @@ a {
   .card06 {
     grid-area: card06;
   }
-  .our_work_tittle {
-    font-family: "Roboto Condensed";
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    text-align: center;
-  }
-  .our_work_subtitle {
-    font-family: "Roboto Condensed";
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    text-align: center;
-  }
-  .our_work_cards-card {
-    background-color: rgb(182, 221, 255);
-    color: black;
-    font-family: "Roboto Condensed";
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 700;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    border-radius: 20px;
-    width: 300px;
-    height: 300px;
-    padding: 8px;
-    transition: all 2s;
-  }
   .our_work_cards-card:hover {
     transform: scale(1.3);
-    background-color: white;
+    background-color: rgb(0, 53, 71);
     border-radius: 10px;
   }
   .our_work_cards-card p {

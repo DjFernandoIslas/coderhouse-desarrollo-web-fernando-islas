@@ -2,9 +2,36 @@
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+$primary: #0d6efd;
+$secondary: #43a1ff;
+$success: #82ffba;
+$info: #00cad1;
+$warning: #ffd000;
+$danger: #840000;
+$light: #f4f4f4;
+$dark: #00191a;
+$cta: #0f3973;
+
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "success": $success,
+    "info": $info,
+    "warning": $warning,
+    "danger": $danger,
+    "light": $light,
+    "dark": $dark,
+    "cta": $cta,
+    );
+
 // Then add additional custom code here
 
-@import "./pages/Index/";
+@import "./pages/index";
+@import "./pages/header";
+@import "./pages/Menu";
+@import "./pages/Promos";
+@import "./pages/Nosotros";
+@import "./pages/Contactanos";
+
 @import "./pages/Index/Main-principal";
 @import "./pages/Index/Main-cards";
-@import "./pages/header";

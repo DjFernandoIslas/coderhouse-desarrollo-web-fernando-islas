@@ -13,6 +13,7 @@
   justify-content: center;
   align-items: center;
   padding: 10px 0 10px;
+  color: white;
 }
 
 .our_work_cards {
@@ -22,8 +23,6 @@
 }
 
 .our_work_cards-card {
-  background-color: rgb(182, 221, 255);
-  color: black;
   font-family: "Roboto Condensed";
   font-size: 15px;
   font-style: normal;
@@ -37,61 +36,39 @@
   padding: 8px;
   transition: all 2s;
   margin: 5px;
+  background-color: $danger;
+    color: white;
 }
+
+.our_work_cards-card {
+  color: white;
+  font-family: "Roboto Condensed";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 20px;
+  width: 200px;
+  height: 200px;
+  padding: 8px;
+  transition: all 2s;
+  }
 
 @media (min-width: 992px) {
   .our_work {
-    background-color: rgba(0, 35, 61, 0.879);
-    color: white;
+    color: $danger;
   }
 
-  .our_work_cards {
-    width: 100vw;
-    display: grid;
-    grid-template-areas:
-      "card01 card02 card05"
-      "card03 card04 card06";
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 40px 0 40px;
-    gap: 60px;
-    margin: 0px;
-  }
-
-  .our_work_cards-card {
-    background-color: rgb(182, 221, 255);
-    color: black;
+  .our_work_wrapper {
     font-family: "Roboto Condensed";
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 700;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    border-radius: 20px;
-    width: 200px;
-    height: 200px;
-    padding: 8px;
-    transition: all 2s;
-  }
-
-  .card01 {
-    grid-area: card01;
-  }
-  .card02 {
-    grid-area: card02;
-  }
-  .card03 {
-    grid-area: card03;
-  }
-  .card04 {
-    grid-area: card04;
-  }
-  .card05 {
-    grid-area: card05;
-  }
-  .card06 {
-    grid-area: card06;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 10px;
+    color: white;
   }
 
   .our_work_tittle {
@@ -110,9 +87,20 @@
     text-align: center;
   }
 
+  .our_work_cards {
+    width: 100vw;
+    display: grid;
+    grid-template-areas:
+      "card01 card02 card05"
+      "card03 card04 card06";
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 40px 0px 40px 0px;
+    gap: 60px;
+    margin: 0px;
+  }
+
   .our_work_cards-card {
-    background-color: rgb(182, 221, 255);
-    color: black;
     font-family: "Roboto Condensed";
     font-size: 15px;
     font-style: normal;
@@ -121,19 +109,40 @@
     flex-direction: column;
     align-items: flex-start;
     border-radius: 20px;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     padding: 8px;
     transition: all 2s;
+    margin: 5px;
+    background-color: $dark;
   }
 
-  .our_work_cards-card:hover {
-    transform: scale(1.3);
-    background-color: white;
-    border-radius: 10px;
+    .card01 {
+      grid-area: card01;
+    }
+    .card02 {
+      grid-area: card02;
+    }
+    .card03 {
+      grid-area: card03;
+    }
+    .card04 {
+      grid-area: card04;
+    }
+    .card05 {
+      grid-area: card05;
+    }
+    .card06 {
+      grid-area: card06;
+    }
+  
+    .our_work_cards-card:hover {
+      transform: scale(1.3);
+      background-color: rgb(0, 53, 71);
+      border-radius: 10px;
+    }
+  
+    .our_work_cards-card p {
+      font-size: 22px;
+    }
   }
-
-  .our_work_cards-card p {
-    font-size: 22px;
-  }
-}

@@ -1,0 +1,50 @@
+.contact {
+  background-color: rgba(7, 34, 58, 0.934);
+}
+
+.contact_tittle {
+  color: white;
+  font-family: "Roboto Condensed";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 200;
+  text-align: center;
+}
+
+.contact_subtitle {
+  color: white;
+  font-family: "Roboto Condensed";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 200;
+  text-align: center;
+}
+
+.form_contact {
+  display: block;
+  text-align: center;
+}
+
+.contact_thanks_img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 50%;
+}
+
+.contact_header {
+  background-image: url(/Menu/images/wallpapers/index-wallpaper.jpg);
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: 220vw;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 992px) {
+  .contact_img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+}
