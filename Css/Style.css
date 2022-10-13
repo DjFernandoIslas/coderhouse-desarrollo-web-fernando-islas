@@ -8862,7 +8862,8 @@ a {
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
-    text-align: center; }
+    text-align: center;
+    align-items: center; }
   .our_work_cards {
     width: 100vw;
     display: grid;
@@ -8870,7 +8871,7 @@ a {
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 40px 0px 40px 0px;
-    gap: 60px;
+    gap: 245px;
     margin: 0px; }
   .our_work_cards-card {
     font-family: "Roboto Condensed";
@@ -8881,12 +8882,12 @@ a {
     flex-direction: column;
     align-items: flex-start;
     border-radius: 20px;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     padding: 8px;
     transition: all 2s;
     margin: 5px;
-    background-color: #00191a; }
+    background-color: #f4f4f4; }
   .card01 {
     grid-area: card01; }
   .card02 {

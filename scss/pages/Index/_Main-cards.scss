@@ -85,6 +85,7 @@
     font-style: normal;
     font-weight: 700;
     text-align: center;
+    align-items: center;
   }
 
   .our_work_cards {
@@ -96,7 +97,7 @@
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 40px 0px 40px 0px;
-    gap: 60px;
+    gap: 245px;
     margin: 0px;
   }
 
@@ -109,12 +110,12 @@
     flex-direction: column;
     align-items: flex-start;
     border-radius: 20px;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     padding: 8px;
     transition: all 2s;
     margin: 5px;
-    background-color: $dark;
+    background-color: $light;
   }
 
     .card01 {
