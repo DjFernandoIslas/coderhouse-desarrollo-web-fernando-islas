@@ -8723,6 +8723,11 @@ a {
   background-size: 220vw;
   background-repeat: no-repeat; }
 
+.formulario-bootstrap {
+  padding: 0 16rem 0;
+  color: white;
+  text-align: center; }
+
 @media (min-width: 992px) {
   .contact_img {
     width: 100%;
