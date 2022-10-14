@@ -8466,7 +8466,7 @@ a {
 .footer {
   background-color: #086fff;
   font-family: "Roboto Condensed";
-  padding: 0 30px;
+  padding: 0 30px 0;
   display: flex;
   justify-content: center;
   justify-content: space-around; }
@@ -8475,6 +8475,7 @@ a {
 @media (min-width: 992px) {
   .link {
     text-decoration-color: white; }
+  /*estilos de las secciones cafe food y drinks que son solo galerias*/
   .submenu {
     background-color: #07223a; }
   .submenu_tittle {
@@ -8495,11 +8496,13 @@ a {
     width: 100%;
     display: flex;
     flex-direction: column;
-    text-align: center; }
+    text-align: center;
+    align-items: center; }
   .submenu_media {
-    height: 400px;
-    width: 400px; }
-  /* fin estilos submenu */
+    width: 400px;
+    border-radius: 20px;
+    margin: 20px; }
+  /* fin estilos secciones cafe food y drinks */
   /* inicio estilos legales */
   .legal_button {
     font-family: "Roboto Condensed";
@@ -8655,9 +8658,6 @@ a {
     flex-direction: column;
     align-items: center; } }
 
-.nosotros {
-  background-color: #0a78af; }
-
 .header_wallpaper {
   background-image: url(/Menu/images/wallpapers/index-wallpaper.jpg);
   background-position: center center;
@@ -8677,7 +8677,7 @@ a {
   color: white;
   font-family: "Roboto Condensed";
   font-size: 20px;
-  font-styse: normal;
+  font-style: normal;
   font-weight: 200;
   text-align: center; }
 

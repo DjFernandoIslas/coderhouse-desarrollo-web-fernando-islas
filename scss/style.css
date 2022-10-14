@@ -10935,9 +10935,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-/*
-REVISANDOOOOOO
-*/
 .padding-1 {
   padding: 1rem;
 }
@@ -11028,7 +11025,6 @@ a {
 }
 
 .header-and-main {
-  background-image: url(/Menu/images/wallpapers/index-wallpaper.jpg);
   background-position: center center;
   background-attachment: fixed;
   background-size: 220vw;
@@ -11040,7 +11036,7 @@ a {
 .footer {
   background-color: rgb(8, 111, 255);
   font-family: "Roboto Condensed";
-  padding: 0 30px;
+  padding: 0 30px 0;
   display: flex;
   justify-content: center;
   justify-content: space-around;
@@ -11052,6 +11048,7 @@ a {
     -webkit-text-decoration-color: white;
             text-decoration-color: white;
   }
+  /*estilos de las secciones cafe food y drinks que son solo galerias*/
   .submenu {
     background-color: rgb(7, 34, 58);
   }
@@ -11076,12 +11073,14 @@ a {
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
   }
   .submenu_media {
-    height: 400px;
     width: 400px;
+    border-radius: 20px;
+    margin: 20px;
   }
-  /* fin estilos submenu */
+  /* fin estilos secciones cafe food y drinks */
   /* inicio estilos legales */
   .legal_button {
     font-family: "Roboto Condensed";
@@ -11265,10 +11264,6 @@ a {
     align-items: center;
   }
 }
-.nosotros {
-  background-color: rgb(10, 120, 175);
-}
-
 .header_wallpaper {
   background-image: url(/Menu/images/wallpapers/index-wallpaper.jpg);
   background-position: center center;
@@ -11290,7 +11285,7 @@ a {
   color: white;
   font-family: "Roboto Condensed";
   font-size: 20px;
-  font-styse: normal;
+  font-style: normal;
   font-weight: 200;
   text-align: center;
 }
@@ -11342,6 +11337,12 @@ a {
   background-attachment: fixed;
   background-size: 220vw;
   background-repeat: no-repeat;
+}
+
+.formulario-bootstrap {
+  padding: 0 16rem 0;
+  color: white;
+  text-align: center;
 }
 
 @media (min-width: 992px) {
