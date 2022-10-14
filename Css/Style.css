@@ -8386,9 +8386,6 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
-/*
-REVISANDOOOOOO
-*/
 .padding-1 {
   padding: 1rem; }
 
@@ -8459,7 +8456,6 @@ a {
   position: relative; }
 
 .header-and-main {
-  background-image: url(/Menu/images/wallpapers/index-wallpaper.jpg);
   background-position: center center;
   background-attachment: fixed;
   background-size: 220vw;
