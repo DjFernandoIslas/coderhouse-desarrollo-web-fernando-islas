@@ -50,44 +50,43 @@ a {
   justify-content: space-around;
 }
 
-/* DESKTOP VERSION */
-
-@media (min-width: 992px) {
-  .link {
-    text-decoration-color: white;
-  }
 
   /*estilos de las secciones cafe food y drinks que son solo galerias*/
 
-  .submenu {
-    background-color: rgb(7, 34, 58);
-  }
 
-  .submenu_tittle {
-    color: white;
-    font-family: "Roboto Condensed";
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 200;
-    text-align: center;
-  }
 
-  .submenu_subtitle {
-    color: white;
-    font-family: "Roboto Condensed";
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 200;
-    text-align: center;
-  }
+.submenu {
+  background-color: rgb(7, 34, 58);
+}
 
-  .submenu_imgs {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-  }
+.submenu_tittle {
+  color: white;
+  font-family: "Roboto Condensed";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 200;
+  text-align: center;
+}
+
+.submenu_subtitle {
+  color: white;
+  font-family: "Roboto Condensed";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 200;
+  text-align: center;
+}
+
+
+.submenu_imgs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+
 
   .submenu_media {
     width: 400px;
@@ -96,6 +95,14 @@ a {
   }
 
   /* fin estilos secciones cafe food y drinks */
+
+/* DESKTOP VERSION */
+
+@media (min-width: 992px) {
+  .link {
+    text-decoration-color: white;
+  }
+
 
   /* inicio estilos legales */
 
