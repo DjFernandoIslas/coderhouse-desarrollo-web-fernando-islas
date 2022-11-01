@@ -9,11 +9,15 @@
     list-style: none;
   }
 
+  .page_header_nav-button {
+    border: 1px solid white;
+    color: white;
+    border-radius: 40px;
+    padding: 10px 15px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
   @media (min-width: 992px){
-    .page_header_nav-button {
-        border: 1px solid white;
-        border-radius: 40px;
-        padding: 10px 15px;
-        margin-left: 20px;
-      }
   }
