@@ -8474,39 +8474,6 @@ a {
   justify-content: center;
   justify-content: space-around; }
 
-/*estilos de las secciones cafe food y drinks que son solo galerias*/
-.submenu_tittle {
-  color: white;
-  font-family: "Roboto Condensed";
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 200;
-  display: flex;
-  justify-content: center; }
-
-.submenu_subtitle {
-  color: white;
-  font-family: "Roboto Condensed";
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 200;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center; }
-
-.submenu_imgs {
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-
-.submenu_media {
-  width: 150px;
-  border-radius: 20px;
-  margin: 20px; }
-
-/* fin estilos secciones cafe food y drinks */
 /* DESKTOP VERSION */
 @media (min-width: 992px) {
   .link {
