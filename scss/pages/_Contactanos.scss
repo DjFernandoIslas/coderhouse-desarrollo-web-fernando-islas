@@ -1,5 +1,6 @@
 .contact {
   background-color: rgba(7, 34, 58, 0.934);
+  width: 100vw;
 }
 
 .contact_tittle {
@@ -49,8 +50,9 @@
 
 @media (min-width: 992px) {
   .contact_img {
-    width: 100%;
+    width: 99vw;
     display: flex;
-    align-items: center;
+    justify-content: center;
+    padding: 10px 30px 10px;
   }
 }
