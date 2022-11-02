@@ -8462,6 +8462,9 @@ a {
   background-repeat: no-repeat;
   background-color: #092741; }
 
+.nav-link {
+  color: white; }
+
 /*Estilos logo del header */
 .footer {
   background-color: #086fff;
@@ -8623,7 +8626,12 @@ a {
     text-align: center; }
   .imagen_menu {
     height: 500px;
-    width: 50%; } }
+    width: 50%; }
+  .modal_action {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px 0 5px; } }
 
 .promos {
   background-color: #0a78af; }

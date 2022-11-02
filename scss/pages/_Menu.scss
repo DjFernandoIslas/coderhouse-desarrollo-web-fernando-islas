@@ -103,4 +103,10 @@
         height: 500px;
         width: 50%;
       }
+      .modal_action{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 5px 0 5px;
+      }
   }
