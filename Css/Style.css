@@ -8459,8 +8459,7 @@ a {
   background-position: center center;
   background-attachment: fixed;
   background-size: 220vw;
-  background-repeat: no-repeat;
-  background-color: #092741; }
+  background-repeat: no-repeat; }
 
 .nav-link {
   color: white; }
@@ -8754,12 +8753,14 @@ a {
 .main_principal_wrapper_tittle {
   font-family: "Roboto Condensed";
   font-style: normal;
-  text-align: center; }
+  text-align: center;
+  color: black; }
 
 .main_principal_wrapper_slogan {
   font-family: "Roboto Condensed";
   font-style: normal;
-  text-align: center; }
+  text-align: center;
+  color: black; }
 
 .main_principal_wrapper_paragraph {
   font-family: "Roboto Condensed";
@@ -8784,19 +8785,22 @@ a {
     flex-direction: column;
     width: 500px;
     justify-content: center;
-    height: 100%; }
+    height: 100%;
+    color: black; }
   .main_principal_wrapper_tittle {
     font-family: "Roboto Condensed";
     font-size: 90px;
     font-style: normal;
     font-weight: 700;
-    text-align: center; }
+    text-align: center;
+    color: black; }
   .main_principal_wrapper_slogan {
     font-family: "Roboto Condensed";
     font-size: 50px;
     font-style: normal;
     font-weight: 700;
-    text-align: center; }
+    text-align: center;
+    color: black; }
   .main_principal_wrapper_paragraph {
     font-family: "Roboto Condensed";
     font-size: 15px;
