@@ -1,23 +1,28 @@
 .contact {
-  background-color: rgba(7, 34, 58, 0.934);
   width: 100vw;
-}
+  font-family: "Roboto Condensed";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 200;
+  color: black;
+}  
 
 .contact_tittle {
-  color: white;
+  color: black;
   font-family: "Roboto Condensed";
   font-size: 30px;
   font-style: normal;
   font-weight: 200;
   text-align: center;
+  padding-top: 30px;
 }
 
 .contact_subtitle {
-  color: white;
   font-family: "Roboto Condensed";
   font-size: 20px;
   font-style: normal;
   font-weight: 200;
+  color: black;
   text-align: center;
 }
 
