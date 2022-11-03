@@ -8881,11 +8881,21 @@ a {
   border-radius: 20px;
   width: 200px;
   height: 200px;
-  padding: 8px;
+  padding: 0;
   transition: all 2s;
   margin: 5px;
   background-color: #f4f4f4;
   color: black; }
+
+.card-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 10px; }
+
+.card_img {
+  width: 40px;
+  height: 40px; }
 
 @media (min-width: 992px) {
   .our_work {
