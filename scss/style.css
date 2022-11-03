@@ -11029,7 +11029,10 @@ a {
   background-attachment: fixed;
   background-size: 220vw;
   background-repeat: no-repeat;
-  background-color: rgb(9, 39, 65);
+}
+
+.nav-link {
+  color: white;
 }
 
 /*Estilos logo del header */
@@ -11042,43 +11045,6 @@ a {
   justify-content: space-around;
 }
 
-/*estilos de las secciones cafe food y drinks que son solo galerias*/
-.submenu_tittle {
-  color: white;
-  font-family: "Roboto Condensed";
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 200;
-  display: flex;
-  justify-content: center;
-}
-
-.submenu_subtitle {
-  color: white;
-  font-family: "Roboto Condensed";
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 200;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-}
-
-.submenu_imgs {
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.submenu_media {
-  width: 150px;
-  border-radius: 20px;
-  margin: 20px;
-}
-
-/* fin estilos secciones cafe food y drinks */
 /* DESKTOP VERSION */
 @media (min-width: 992px) {
   .link {
@@ -11125,7 +11091,7 @@ a {
 }
 
 .menu_tittle {
-  color: white;
+  color: dark;
   font-family: "Roboto Condensed";
   font-size: 30px;
   font-style: normal;
@@ -11149,7 +11115,6 @@ a {
 }
 
 .recoms {
-  background-color: rgb(9, 39, 66);
   font-family: "Roboto Condensed";
 }
 
@@ -11222,6 +11187,12 @@ a {
   .imagen_menu {
     height: 500px;
     width: 50%;
+  }
+  .modal_action {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px 0 5px;
   }
 }
 .promos {
@@ -11304,6 +11275,7 @@ a {
 
 .contact {
   background-color: rgba(7, 34, 58, 0.934);
+  width: 100vw;
 }
 
 .contact_tittle {
@@ -11353,9 +11325,10 @@ a {
 
 @media (min-width: 992px) {
   .contact_img {
-    width: 100%;
+    width: 99vw;
     display: flex;
-    align-items: center;
+    justify-content: center;
+    padding: 10px 30px 10px;
   }
 }
 .legales {
@@ -11402,12 +11375,14 @@ a {
   font-family: "Roboto Condensed";
   font-style: normal;
   text-align: center;
+  color: black;
 }
 
 .main_principal_wrapper_slogan {
   font-family: "Roboto Condensed";
   font-style: normal;
   text-align: center;
+  color: black;
 }
 
 .main_principal_wrapper_paragraph {
@@ -11438,6 +11413,7 @@ a {
     width: 500px;
     justify-content: center;
     height: 100%;
+    color: black;
   }
   .main_principal_wrapper_tittle {
     font-family: "Roboto Condensed";
@@ -11445,6 +11421,7 @@ a {
     font-style: normal;
     font-weight: 700;
     text-align: center;
+    color: black;
   }
   .main_principal_wrapper_slogan {
     font-family: "Roboto Condensed";
@@ -11452,6 +11429,7 @@ a {
     font-style: normal;
     font-weight: 700;
     text-align: center;
+    color: black;
   }
   .main_principal_wrapper_paragraph {
     font-family: "Roboto Condensed";
@@ -11645,6 +11623,7 @@ a {
   grid-auto-rows: 200px;
   gap: 1rem;
   grid-auto-flow: row dense;
+  padding: 30px 0 30px;
 }
 
 @media all and (min-width: 320px) {
