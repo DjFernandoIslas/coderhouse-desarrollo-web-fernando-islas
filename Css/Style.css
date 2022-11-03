@@ -8645,7 +8645,7 @@ a {
   background-size: 220vw;
   background-repeat: no-repeat; }
 
-.nosotros_tittle {
+.nosotros_wrapper {
   color: white;
   font-family: "Roboto Condensed";
   font-size: 30px;
@@ -8662,9 +8662,49 @@ a {
   text-align: center; }
 
 .mapa {
-  width: 100%;
-  display: block;
-  text-align: center; }
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.te_esperamos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 100vw; }
+
+.te_esperamos_img {
+  width: 100vw; }
+
+@media (min-width: 992px) {
+  .nosotros {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 40px 10px; }
+  .nosotros_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    width: 50vw; }
+  .mapa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50vw; }
+  .te_esperamos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    width: 100vw; }
+  .te_esperamos_img {
+    width: 1000px; } }
 
 .contact {
   background-color: rgba(7, 34, 58, 0.934);
