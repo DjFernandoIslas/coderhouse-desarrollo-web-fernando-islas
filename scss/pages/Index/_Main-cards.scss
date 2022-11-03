@@ -1,5 +1,5 @@
 .our_work {
-  background-color: rgba(0, 35, 61, 0.879);
+  background-color: white;
   color: white;
   display: flex;
   flex-direction: column;
@@ -13,7 +13,7 @@
   justify-content: center;
   align-items: center;
   padding: 10px 0 10px;
-  color: white;
+  color: black;
 }
 
 .our_work_tittle {
@@ -22,6 +22,7 @@
   font-style: normal;
   font-weight: 700;
   text-align: center;
+  color: black;
 }
 
 .our_work_subtitle {
@@ -31,6 +32,7 @@
   font-weight: 700;
   text-align: center;
   align-items: center;
+  color: black;
 }
 
 .our_work_cards {
