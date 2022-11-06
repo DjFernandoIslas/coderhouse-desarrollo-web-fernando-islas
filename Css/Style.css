@@ -8707,11 +8707,10 @@ a {
     width: 1000px; } }
 
 .contact {
-  background-color: rgba(7, 34, 58, 0.934);
   width: 100vw; }
 
 .contact_tittle {
-  color: white;
+  color: black;
   font-family: "Roboto Condensed";
   font-size: 30px;
   font-style: normal;
@@ -8719,7 +8718,7 @@ a {
   text-align: center; }
 
 .contact_subtitle {
-  color: white;
+  color: black;
   font-family: "Roboto Condensed";
   font-size: 20px;
   font-style: normal;
@@ -8745,7 +8744,6 @@ a {
   background-repeat: no-repeat; }
 
 .formulario-bootstrap {
-  padding: 0 16rem 0;
   color: white;
   text-align: center; }
 
@@ -8754,7 +8752,23 @@ a {
     width: 99vw;
     display: flex;
     justify-content: center;
-    padding: 10px 30px 10px; } }
+    padding: 10px 30px 10px; }
+  .contact_wrapper_form {
+    display: flex;
+    flex-direction: row;
+    width: 100vw; }
+  .contact_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50vw;
+    padding: 0; }
+  .formulario-bootstrap {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    justify-content: center;
+    padding: 0; } }
 
 .legales {
   color: white;
